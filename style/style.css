@@ -1,0 +1,112 @@
+body{
+  background-color: #F9EFE8;
+}
+
+ul {
+  font-family: Helvetica;
+  background-color: red;
+  display: flex;
+  justify-content: space-between; 
+  padding: 20px; /* Ajoute un espacement intérieur pour le contenu */
+}
+
+#titre{
+  border: 1px solid black;
+  width: 400px;
+  margin-left: calc(100vw - 420px);
+}
+
+#conteneur{
+  display: flex;
+  align-items: center;
+}
+
+
+#conteneur figure {
+  border: 1px solid red;
+  width: 600px; /* Largeur de l'image */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+  margin-right: 20px; /* Espace à droite de l'image */
+}
+
+#conteneur figure img{
+  width: 600px;
+}
+
+
+.intro{
+  color: #000000;
+  font-family: Apple Garamond Light, 'Source Sans Pro';
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/*pages dessin*/
+
+#logo {
+  display: flex;
+  justify-content: space-between;
+} 
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.conteneur_images {
+  width: 100vw;
+  height: auto;
+}
+
+
+.boite {
+  width: 93vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto 150px;
+
+}
+
+.tailleimage {
+  transition: 0.5s all;
+
+}
+
+.tailleimage:hover{
+  transform: scale(1.1);
+}
+
+
+.bloctailleimg {
+    overflow: hidden;     
+  /*border: 1px solid red;*/
+}
+
+.image{
+  width: 80%;
+  margin: auto;
+  /*border: 1px solid purple;*/
+  overflow: hidden;
+  height: auto;
+}
+
+.image-container {
+  background-image: url('../import/importabout.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 85vh;
+
+}
+
+footer{
+  background-color: blue;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
