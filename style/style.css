@@ -47,8 +47,18 @@ a {
 #conteneur{
   display: flex;
   align-items: center;
+  /*border: 1px solid red;*/
+  position: relative;
+  margin-top: 10px; 
 }
 
+#about{
+  position: absolute;
+  /*border: 1px solid blue;*/
+  bottom: 20px;
+  width: 50vw;
+  right: 20px;
+}
 
 #conteneur figure {
   /*border: 1px solid red;*/
