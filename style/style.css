@@ -1,14 +1,42 @@
+/*@font-face {
+  font-family: 'AppleGaramond-LightItalic';
+  src: url('fonts/Apple Garamond Light Italic.ttf') format('ttf');
+}*/
+
+@import url('https://fonts.cdnfonts.com/css/apple-garamond?styles=11167');
+
+
 body{
-  background-color: #F9EFE8;
+  background-color: white;
 }
 
 ul {
   font-family: Helvetica;
-  background-color: red;
+  background-color: white;
   display: flex;
+  text-decoration: none !important;
   justify-content: space-between; 
   padding: 20px; /* Ajoute un espacement intérieur pour le contenu */
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.grostitre {
+  font-family: 'Apple Garamond Light', sans-serif;
+  font-style: italic;
+  font-size: 6em;
+}
+
+.soustitre {
+  font-family: Helvetica;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
 
 #titre{
   border: 1px solid black;
@@ -23,10 +51,11 @@ ul {
 
 
 #conteneur figure {
-  border: 1px solid red;
-  width: 600px; /* Largeur de l'image */
-  height: auto; /* Hauteur automatique pour conserver les proportions */
-  margin-right: 20px; /* Espace à droite de l'image */
+  /*border: 1px solid red;*/
+  width: 2500px; Largeur de l'image */
+  height: auto;  /*Hauteur automatique pour conserver les proportions */
+  margin-right: 70px; /* Espace à droite de l'image */
+  padding: 20px;
 }
 
 #conteneur figure img{
@@ -37,8 +66,10 @@ ul {
 .intro{
   color: #000000;
   font-family: Apple Garamond Light, 'Source Sans Pro';
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-style: italic;
+  margin-right: 60px;
+  margin-top: 90px;
 }
 
 /*pages dessin*/
