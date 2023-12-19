@@ -92,7 +92,7 @@ img {
 }
 
 
-.boite {
+.boite {s
   width: 93vw;
   height: 50vh;
   display: flex;
@@ -114,7 +114,7 @@ img {
 
 .bloctailleimg {
     overflow: hidden;     
-  /*border: 1px solid red;*/
+  border: 1px solid red;
 }
 
 .image{
