@@ -56,13 +56,7 @@ a {
   margin-top: 10px; 
 }
 
-#about{
-  position: absolute;
-  /*border: 1px solid blue;*/
-  bottom: 20px;
-  width: 50vw;
-  right: 20px;
-}
+
 
 #conteneur figure {
   /*border: 1px solid red;*/
@@ -76,6 +70,13 @@ a {
   width: 600px;
 }
 
+#about{
+  position: absolute;
+  /*border: 1px solid blue;*/
+  bottom: 20px;
+  width: 50vw;
+  right: 20px;
+}
 
 .intro{
   color: #000000;
@@ -85,6 +86,41 @@ a {
   margin-right: 60px;
   margin-top: 90px;
 }
+
+/*texte bounce*/
+#aboutbounce{ 
+  position: absolute;
+  border: 1px solid blue;
+  bottom: 20px;
+  width: 50vw;
+  right: 20px;
+}
+
+.introbounce {
+  color: red;
+  font-family: Apple Garamond Light, 'Source Sans Pro';
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: 20px;
+  text-align: left;
+  margin-top: 1000px;
+  border: 1px solid blue;
+}
+
+#conteneurbounce figure {
+  border: 1px solid red;
+  width: 2500px; /*Largeur de l'image */
+  height: auto;  /*Hauteur automatique pour conserver les proportions */
+  margin-right: 20px; /* Espace à droite de l'image */
+  padding: 20px;
+}
+
+#conteneurbounce figure img{
+  width: 600px;
+}
+
+
+s
 
 /*pages dessin*/
 
