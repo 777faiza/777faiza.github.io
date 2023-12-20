@@ -24,6 +24,10 @@ a {
   color: black;
 }
 
+#logo{
+  width: 60px;
+}
+
 .grostitre {
   font-family: 'Apple Garamond Light', sans-serif;
   font-style: italic;
@@ -39,7 +43,7 @@ a {
 
 
 #titre{
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   width: 400px;
   margin-left: calc(100vw - 420px);
 }
@@ -62,7 +66,7 @@ a {
 
 #conteneur figure {
   /*border: 1px solid red;*/
-  width: 2500px; Largeur de l'image */
+  width: 2500px; /*Largeur de l'image */
   height: auto;  /*Hauteur automatique pour conserver les proportions */
   margin-right: 70px; /* Espace à droite de l'image */
   padding: 20px;
@@ -102,7 +106,7 @@ img {
 }
 
 
-.boite {s
+.boite {
   width: 93vw;
   height: 50vh;
   display: flex;
@@ -123,8 +127,10 @@ img {
 
 
 .bloctailleimg {
-    overflow: hidden;     
+  overflow: hidden;     
   border: 1px solid red;
+  font-family: 'Apple Garamond Light', sans-serif;
+  font-style: italic;
 }
 
 .image{
