@@ -89,27 +89,25 @@ a {
 
 /*texte bounce*/
 #aboutbounce{ 
-  position: absolute;
-  border: 1px solid blue;
-  bottom: 20px;
-  width: 50vw;
-  right: 20px;
+  height: 10vw; 
+  /*border: 1px solid green;*/
+  width: 60vw;
+  right: 20vw;
 }
 
 .introbounce {
-  color: red;
+  color: black;
   font-family: Apple Garamond Light, 'Source Sans Pro';
   font-size: 1.5rem;
   font-style: italic;
   margin-left: 20px;
   text-align: left;
-  margin-top: 1000px;
-  border: 1px solid blue;
+  /*border: 1px solid red;*/
 }
 
 #conteneurbounce figure {
   border: 1px solid red;
-  width: 2500px; /*Largeur de l'image */
+  width: 1000px; /*Largeur de l'image */
   height: auto;  /*Hauteur automatique pour conserver les proportions */
   margin-left: 20px; /* Espace à droite de l'image */
   padding: 20px;
@@ -151,6 +149,8 @@ img {
 .conteneur-imagesopia {
  align-items: center; /* Centre verticalement */
  justify-content: center;
+ margin: auto;
+ width: 500px;
 
    
 }
@@ -177,7 +177,8 @@ img {
 
 
 .bloctailleimg {
-  overflow: hidden;     
+  overflow: hidden;
+  margin-top: 70px;     
   border: 1px solid red;
   font-family: 'Apple Garamond Light', sans-serif;
   font-style: italic;
