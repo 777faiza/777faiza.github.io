@@ -134,6 +134,12 @@ a {
   margin-bottom: 90px;
 }
 
+#textecaptureopia{
+  height: 400%;
+  margin-bottom: 50px;
+}
+
+
 .intropal{
   font-family: Apple Garamond Light, 'Source Sans Pro';
   font-size: 1.5rem;
@@ -213,7 +219,7 @@ img {
 
 #conteneurpal{
  
-  /*border: 1px solid green;*/
+  border: 1px solid green;
   height: 60px;
   width: 100px;
 
