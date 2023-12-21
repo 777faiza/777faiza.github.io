@@ -112,10 +112,7 @@ a {
   width: 600px;
 }
 
-#conteneuropia figure img {
-  width: 300px;
-  border: 1px solid green;
-}
+
 
 .imggeovelo{
   width: 1000%;
@@ -154,6 +151,11 @@ a {
   margin-left: 20px;
   text-align: left;
   /*border: 1px solid red;*/
+}
+
+#conteneuropia figure img {
+  width: 100px;
+  border: 1px solid green;
 }
 
 
