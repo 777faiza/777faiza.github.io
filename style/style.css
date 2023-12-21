@@ -111,7 +111,7 @@ a {
   border: 1px solid red;
   width: 2500px; /*Largeur de l'image */
   height: auto;  /*Hauteur automatique pour conserver les proportions */
-  margin-right: 20px; /* Espace à droite de l'image */
+  margin-left: 20px; /* Espace à droite de l'image */
   padding: 20px;
 }
 
@@ -119,8 +119,14 @@ a {
   width: 600px;
 }
 
+#conteneuropia figure img {
+  width: 300px;
+  border: 1px solid green;
+}
 
-s
+
+
+
 
 /*pages dessin*/
 
@@ -139,6 +145,14 @@ img {
 .conteneur_images {
   width: 100vw;
   height: auto;
+}
+
+
+.conteneur-imagesopia {
+ align-items: center; /* Centre verticalement */
+ justify-content: center;
+
+   
 }
 
 
