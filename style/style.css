@@ -106,14 +106,17 @@ a {
 }
 
 #conteneurbounce figure {
-  border: 1px solid red;
-  width: 1000px; /*Largeur de l'image */
-  height: auto;  /*Hauteur automatique pour conserver les proportions */
-  margin-left: 20px; /* Espace à droite de l'image */
-  padding: 20px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
 }
 
+
+
 #conteneurbounce figure img{
+  margin-bottom: 20px;
   width: 600px;
 }
 
@@ -122,12 +125,39 @@ a {
   border: 1px solid green;
 }
 
-#conteneurgeovelo figure img{
-  
- margin: auto;
+.imggeovelo{
+  width: 1000%;
+  margin-left: 20px;
+}
+
+#grandgrp{
+  display: flex;
+}
+
+#telephone{
+  width: 400%;
+  margin: auto;
+
+}
+
+#textecapture{
+  height: 400%;
+  margin-bottom: 90px;
 }
 
 
+
+
+/*#telephone{
+  
+  border: 1px solid green;
+  margin-left: 20px;
+  height: 100%;
+}*/
+
+
+
+ 
 
 
 
@@ -191,9 +221,10 @@ figcaption {
 .bloctailleimg {
   overflow: hidden;
   margin-top: 70px;     
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   font-family: 'Apple Garamond Light', sans-serif;
   font-style: italic;
+
 }
 
 .image{
