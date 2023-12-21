@@ -95,15 +95,7 @@ a {
   right: 20vw;
 }
 
-.introbounce {
-  color: black;
-  font-family: Apple Garamond Light, 'Source Sans Pro';
-  font-size: 1.5rem;
-  font-style: italic;
-  margin-left: 20px;
-  text-align: left;
-  /*border: 1px solid red;*/
-}
+
 
 #conteneurbounce figure {
  display: flex;
@@ -147,11 +139,21 @@ a {
 
 .intropal{
   font-family: Apple Garamond Light, 'Source Sans Pro';
- 
   font-size: 1.5rem;
   font-style: italic;
   margin-bottom: 900px;
+  margin-left: 20px;
   text-align: left;
+}
+
+.introbounce {
+  color: black;
+  font-family: Apple Garamond Light, 'Source Sans Pro';
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: 20px;
+  text-align: left;
+  /*border: 1px solid red;*/
 }
 
 
@@ -194,9 +196,15 @@ img {
  align-items: center; /* Centre verticalement */
  justify-content: center;
  margin: auto;
- width: 500px;
+ width: 500px;   
+}
 
-   
+
+
+#conteneurpal{
+ 
+  border: 1px solid green;
+
 }
 
 figcaption {
