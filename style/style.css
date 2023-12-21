@@ -122,6 +122,11 @@ a {
   border: 1px solid green;
 }
 
+#conteneurgeovelo figure img{
+  
+ margin: auto;
+}
+
 
 
 
@@ -153,6 +158,13 @@ img {
  width: 500px;
 
    
+}
+
+figcaption {
+  color: #000000;
+  font-family: Apple Garamond Light, 'Source Sans Pro';
+  font-size: 1.5rem;
+  font-style: italic;
 }
 
 
@@ -200,6 +212,10 @@ img {
   width: 100%;
   height: 85vh;
 
+}
+
+#imagegeovelo {
+  width: 400%;
 }
 
 footer{
