@@ -1,0 +1,17 @@
+header{
+	width: 88vw;
+}
+
+section{
+	width: 90vw;
+}
+
+
+
+article{ 
+grid-column: span 12 }
+
+
+section article a aside{
+	bottom: 0px;
+}
